@@ -81,7 +81,7 @@ body{
 }
 
 .main-chat{
-    flex: 1;
+   flex: 1;
     background-color:  #180D20;
     padding: 40px;
 }
