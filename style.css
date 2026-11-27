@@ -107,4 +107,10 @@ body{
     max-width: 800px;
     margin: 40px auto;
 }
+.chatInput-area{
+    width: 100%;
+    max-width: 800px;
+    margin: 40px auto;
+}
+
 
