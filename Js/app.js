@@ -34,4 +34,7 @@ getAurexReply(message);
  
 }
 
-function getAurexReply(message)
+function getAurexReply(message){
+
+    let reply = "";
+}
