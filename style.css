@@ -153,11 +153,41 @@ body{
     background-color: #FFB4D5;
     color: #180D20;
 }
-
-
-.chatInput-box:focus-within {
-    border-color: #FF69B4;
-    box-shadow: 0 0 12px rgba(255, 105, 180, 0.3);
+.user-message{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
 }
+.user-message p{
+    background-color: #E45B9A;
+    color: #FFFFFF;
+    padding: 12px 18px;
+    border-radius: 18px 18px 4px 18px;
+    max-width: 70%;
+    font-size: 15px;
+    margin: 0;
+    word-wrap: break-word;
+
+}
+
+.aurex-message{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+.aurex-message p{
+    background-color: #45203E;
+    color: #FFFFFF;
+    padding: 12px 18px;
+    border: 1px solid #603550;
+    border-radius: 18px 18px 4px 18px;
+    max-width: 70%;
+    font-size: 15px;
+    margin: 0;
+    word-wrap: break-word;
+
+}
+
+
 
 
