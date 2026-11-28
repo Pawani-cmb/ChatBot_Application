@@ -37,4 +37,11 @@ getAurexReply(message);
 function getAurexReply(message){
 
     let reply = "";
+
+    if(message.toLowerCase().includes("hi")){
+          reply = "Hello , Welcome to Aurex";
+    }else if(message.toLowerCase().includes("Hello")){
+
+        reply= "Hey there! How can I help you today?";
+    }
 }
