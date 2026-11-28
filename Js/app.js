@@ -34,3 +34,4 @@ getAurexReply(message);
  
 }
 
+function getAurexReply(message)
